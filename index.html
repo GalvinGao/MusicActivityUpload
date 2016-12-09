@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>DevTool</title>
+
+  <!-- CSS  -->
+  <link href="http://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.min.css" rel="stylesheet">
+  <link href="http://cdn.bootcss.com/materialize/0.97.6/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="http://cdn.staticfile.org/qiniu-js-sdk/1.0.14-beta/qiniu.min.js"></script>
+</head>
+<body>
+
+
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" class="brand-logo">ImgUploader</a>
+    </div>
+  </nav>
+
+
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">ImgUploader</h1><br><h5 class="center blue-text">感谢由贴图库提供的非结构图像数据存储服务。</h5><br><h6 class="center blue-text">『现设置：上传至可用区 galvingao.i1.tietuku.global.storage.tietukuservices』</h6><br><br><br>
+      <div class="row center">
+          
+          <div class="input-field col s12 m8 l6">
+
+
+
+          <!-- -->
+
+          <a style ="cursor:pointer center" onclick="tietuku_upload()" class="center waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>upload</a>
+
+          <script language = "javascript" type = "text/javascript"  src="http://static.tietuku.com/static/open/tietuku.jquery.min.js"></script><script language = "javascript" type = "text/javascript"  src="http://static.tietuku.com/static/open/tietuku.dialog.js"></script><script>var jq=jQuery.noConflict();function tietuku_upload(){jq.dialog.showIframeDialog(850, '', '<iframe frameborder="0" width="824" height="460" marginheight="0" marginwidth="0"  src="http://static.tietuku.com/upByPlugn?token=90e0524dfe110b521d1e578a73f5cd55c39957f8:KjSoY8y2rFrT2DGgvnKo_vh5itE=:eyJkZWFkbGluZSI6MTQ4MTI1Nzc4NCwiYWN0aW9uIjoiZ2V0IiwidWlkIjoiNTU4ODMxIiwiYWlkIjoiMTIyMTUwNyIsImZyb20iOiJmaWxlIn0=&ifr=1&"></iframe>');}var $=jQuery.noConflict();</script>
+
+
+      
+          </div>
+
+      <br><br>
+    </div>
+  </div>
+<br>
+
+  <footer class="page-footer orange">
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a> and <a class="orange-text text-lighten-3" href="http://galvingao.xyz">Galvin.G</a>.
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!--  Scripts  -->
+  <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+  <script src="http://cdn.bootcss.com/materialize/0.97.6/js/materialize.min.js"></script>
+  <script>(function($){$(function(){$('.button-collapse').sideNav()})})(jQuery);</script>
+
+  </body>
+</html>
